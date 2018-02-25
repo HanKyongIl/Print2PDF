@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		C0C922211D0FFDE5000D4607 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C922201D0FFDE5000D4607 /* AppDelegate.swift */; };
-		C0C922231D0FFDE5000D4607 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C922221D0FFDE5000D4607 /* ViewController.swift */; };
 		C0C922261D0FFDE5000D4607 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0C922241D0FFDE5000D4607 /* Main.storyboard */; };
 		C0C922281D0FFDE6000D4607 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0C922271D0FFDE6000D4607 /* Assets.xcassets */; };
 		C0C9222B1D0FFDE6000D4607 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0C922291D0FFDE6000D4607 /* LaunchScreen.storyboard */; };
+		C0C922331D0FFE1B000D4607 /* InvoiceListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C922321D0FFE1B000D4607 /* InvoiceListViewController.swift */; };
+		C0C922351D0FFE67000D4607 /* CreatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C922341D0FFE67000D4607 /* CreatorViewController.swift */; };
+		C0C922371D1002C4000D4607 /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C922361D1002C4000D4607 /* AddItemViewController.swift */; };
+		C0C9223C1D10585C000D4607 /* invoice.html in Resources */ = {isa = PBXBuildFile; fileRef = C0C922391D10585C000D4607 /* invoice.html */; };
+		C0C9223D1D10585C000D4607 /* last_item.html in Resources */ = {isa = PBXBuildFile; fileRef = C0C9223A1D10585C000D4607 /* last_item.html */; };
+		C0C9223E1D10585C000D4607 /* single_item.html in Resources */ = {isa = PBXBuildFile; fileRef = C0C9223B1D10585C000D4607 /* single_item.html */; };
+		C0C922401D105886000D4607 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C9223F1D105886000D4607 /* PreviewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C0C9221D1D0FFDE5000D4607 /* Print2PDF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Print2PDF.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0C922201D0FFDE5000D4607 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C0C922221D0FFDE5000D4607 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C0C922251D0FFDE5000D4607 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C0C922271D0FFDE6000D4607 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0C9222A1D0FFDE6000D4607 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0C9222C1D0FFDE6000D4607 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0C922321D0FFE1B000D4607 /* InvoiceListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvoiceListViewController.swift; sourceTree = "<group>"; };
+		C0C922341D0FFE67000D4607 /* CreatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatorViewController.swift; sourceTree = "<group>"; };
+		C0C922361D1002C4000D4607 /* AddItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
+		C0C922391D10585C000D4607 /* invoice.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = invoice.html; sourceTree = "<group>"; };
+		C0C9223A1D10585C000D4607 /* last_item.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = last_item.html; sourceTree = "<group>"; };
+		C0C9223B1D10585C000D4607 /* single_item.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = single_item.html; sourceTree = "<group>"; };
+		C0C9223F1D105886000D4607 /* PreviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +50,7 @@
 		C0C922141D0FFDE5000D4607 = {
 			isa = PBXGroup;
 			children = (
+				C0C922381D105847000D4607 /* HTML Templates */,
 				C0C9221F1D0FFDE5000D4607 /* Print2PDF */,
 				C0C9221E1D0FFDE5000D4607 /* Products */,
 			);
@@ -55,13 +68,26 @@
 			isa = PBXGroup;
 			children = (
 				C0C922201D0FFDE5000D4607 /* AppDelegate.swift */,
-				C0C922221D0FFDE5000D4607 /* ViewController.swift */,
+				C0C922321D0FFE1B000D4607 /* InvoiceListViewController.swift */,
+				C0C922341D0FFE67000D4607 /* CreatorViewController.swift */,
+				C0C922361D1002C4000D4607 /* AddItemViewController.swift */,
+				C0C9223F1D105886000D4607 /* PreviewViewController.swift */,
 				C0C922241D0FFDE5000D4607 /* Main.storyboard */,
 				C0C922271D0FFDE6000D4607 /* Assets.xcassets */,
 				C0C922291D0FFDE6000D4607 /* LaunchScreen.storyboard */,
 				C0C9222C1D0FFDE6000D4607 /* Info.plist */,
 			);
 			path = Print2PDF;
+			sourceTree = "<group>";
+		};
+		C0C922381D105847000D4607 /* HTML Templates */ = {
+			isa = PBXGroup;
+			children = (
+				C0C922391D10585C000D4607 /* invoice.html */,
+				C0C9223A1D10585C000D4607 /* last_item.html */,
+				C0C9223B1D10585C000D4607 /* single_item.html */,
+			);
+			name = "HTML Templates";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,11 +117,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = Appcoda;
 				TargetAttributes = {
 					C0C9221C1D0FFDE5000D4607 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -122,9 +149,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0C9223C1D10585C000D4607 /* invoice.html in Resources */,
+				C0C9223D1D10585C000D4607 /* last_item.html in Resources */,
 				C0C9222B1D0FFDE6000D4607 /* LaunchScreen.storyboard in Resources */,
 				C0C922281D0FFDE6000D4607 /* Assets.xcassets in Resources */,
 				C0C922261D0FFDE5000D4607 /* Main.storyboard in Resources */,
+				C0C9223E1D10585C000D4607 /* single_item.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +165,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0C922231D0FFDE5000D4607 /* ViewController.swift in Sources */,
+				C0C922371D1002C4000D4607 /* AddItemViewController.swift in Sources */,
+				C0C922351D0FFE67000D4607 /* CreatorViewController.swift in Sources */,
 				C0C922211D0FFDE5000D4607 /* AppDelegate.swift in Sources */,
+				C0C922401D105886000D4607 /* PreviewViewController.swift in Sources */,
+				C0C922331D0FFE1B000D4607 /* InvoiceListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,8 +209,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -222,8 +257,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -242,6 +279,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -252,9 +290,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Print2PDF/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.appcoda.Print2PDF;
+				PRODUCT_BUNDLE_IDENTIFIER = com.polarbear.pdfeditor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -263,9 +303,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Print2PDF/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.appcoda.Print2PDF;
+				PRODUCT_BUNDLE_IDENTIFIER = com.polarbear.pdfeditor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -288,6 +330,7 @@
 				C0C922311D0FFDE6000D4607 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
